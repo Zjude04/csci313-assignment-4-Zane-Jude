@@ -20,4 +20,8 @@
     <li><strong>Genres with the word "fiction":</strong> {{ num_genres_with_word }}</li>
     <li><strong>Books With the word "fiction":</strong> {{ num_books_with_word }}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
